@@ -1,1 +1,9 @@
+Refer to the Microsoft Azure Experiment screenshot:
 
+1. Click into experiments on the left side and open a blank page. 
+2. Click into saved datasets and upload the recommender lav package as well as the Sales Data set
+3. Drag the icons exactly the way it is show on the screen shots
+4. Click on "Execute R Script" icon and copy the Microsft Azure R code into the box
+5. Click Run and wait for it to finish
+6. Click Deploy as web service
+7. Click onto web services and you will see the API key shown in the second screen shot
