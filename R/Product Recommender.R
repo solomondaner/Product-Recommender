@@ -132,6 +132,6 @@ data.table::setnames(results,
 results[, ProductRank := seq_len(.N), by = c("CustomerName")]
 results[, ':=' (TimeStamp = as.character(Sys.time()))]
 
-# Export Data as CSV
+# Export Data as CSV file
 write.csv(results,file = "/Users/solod/Desktop/Output.csv", row.names = F)
 
